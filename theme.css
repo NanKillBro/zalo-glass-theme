@@ -1,0 +1,1153 @@
+3/* transparency */
+/* @this is an example comment which should get skipped fromt he styles generation. Hope it works... :3 */
+html,
+body,
+nav,
+#nav,
+.nav,
+.sticky-category-bar-container,
+navbar,
+body > .root-l-content,
+.p-archiveBody__container,
+.navbar,
+.page_wrapper.without-image,
+#navbar,
+header > .global-head-cont,
+header,
+.toc-sidebar,
+#header,
+#temp_banner,
+.ranavnode,
+.header,
+header::before,
+body > article,
+app,
+#root > div > div > .w-full,
+#app,
+footer,
+.sc-tvx700-7.egPRoP,
+.sidebar-wrap,
+.p-sectionLinks,
+section,
+.main,
+main::before,
+#__next,
+.sidebar-wrapper,
+.sidebar-footer-wrapper,
+.sidebar-footer-container::before,
+#root,
+.min-h-screen.bg-white,
+.app,
+.AppContainer,
+.app-root,
+#wrapper,
+/* @Testing inline comments in selectors */
+body[data-theme="dark"],
+body[data-theme="light"],
+#pass-sidebar,
+.side-bar,
+#main,
+.sidebar,
+.global-content__content,
+main,
+.header-top,
+/* any comment */
+#content,
+#cu-identity,
+section,
+.l-root,
+#__next,
+.landing-hero,
+#navigation-wrapper,
+#global-navbar,
+.layout__content-wrapper,
+.head.notfixed,
+.main-container,
+#app > div,
+.btm-nav > a,
+.oc-content--main,
+body.dark_mode,
+body.light_mode,
+text-div > textarea,
+#starlight__sidebar,
+.sidebar-pane,
+.page--article,
+#xf-guide,
+[data-color-theme] body,
+#__next > div,
+.hero-right,
+#middle,
+.HeaderLinks_header__Ia2QY,
+#page-content,
+section[data-role]
+{
+    background-color: transparent !important;
+    /* @Testing inline comments */
+    background: none !important;
+    border: none !important;
+    /* any comment */
+    box-shadow: none !important;
+    transition: background-color 0.5s ease-in-out, background 0.5s ease-in-out, border 0.5s ease-in-out, box-shadow 0.5s ease-in-out !important;
+    /* any comment */
+    /* any comment */
+}
+
+/* @ this comment will also get skipped */
+/* @ this too */
+/* darkreader $ This is a example description */
+:root
+{
+    --darkreader-background-ffffff: transparent !important;
+}
+
+@layer
+{
+    :root,
+    html,
+    body
+    {
+        --darkreader-background-ffffff: transparent !important;
+        background-color: transparent !important;
+    }
+}
+
+/* no footer */
+footer,
+#Footer,
+.Footer,
+mfe-footer-pharos-footer,
+.footer,
+#footer
+{
+    display: none !important;
+}
+
+:root
+{
+    --background-inactiveness-subtle: transparent !important;
+    --layer-background: transparent !important;
+    --background-surface-1: transparent !important;
+}
+
+/* 1. Xóa nền của các lớp ngoài cùng */
+body,
+html,
+#container
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* 2. Xóa nền thanh menu nhỏ ngoài cùng bên trái (chứa avatar, icon) */
+#sidebarNav,
+#main-tab
+{
+    background-color: transparent !important;
+}
+
+/* 3. Xóa nền cột danh sách chat (chứa thanh tìm kiếm, filter và list bạn bè) */
+.flx-cell,
+.msg-filters-bar,
+#contact-search
+{
+    background-color: transparent !important;
+}
+
+/* Cụm danh sách cuộn ảo của Zalo */
+#conversationListId,
+.virtualized-scroll,
+#conversationList,
+.ReactVirtualized__Grid__innerScrollContainer
+{
+    background-color: transparent !important;
+}
+
+/* 5. Xóa nền của toàn bộ cột chat chính (Header, Vùng cuộn tin nhắn) */
+#chatViewContainer,
+#header,
+#chatView,
+#messageView,
+#messageViewContainer,
+.message-view__scroll__inner
+{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* 6. Ẩn hoàn toàn lớp ảnh nền mờ (blur overlay) mặc định của Zalo */
+.message-view__blur,
+.message-view__blur__overlay
+{
+    display: none !important;
+    /* Dùng display: none vì đây là thẻ <img> */
+}
+
+/* 7. Xóa nền khu vực nhập tin nhắn (Khung chat box, thanh công cụ) */
+.chat-box-input-container,
+.chat-box-bar,
+.chat-box-input,
+.chat-input-container,
+.chat-input-wrapper
+{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* 8. Xóa nền cột thông tin bên phải (Right Sidebar chứa avatar, file, link) */
+aside,
+.cp-bg,
+#chatInfo,
+.chat-info,
+.chat-info__header,
+#sideBodyScrollBox,
+#chatInfoGeneral,
+.chat-info-general__section,
+.chat-info-general__section__header,
+.chat-info-general__section__content,
+.chat-info-general__item,
+.limit-media-container
+{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* (Tùy chọn) 9. Làm mờ nền của các bọt chat và thẻ ngày tháng để dễ đọc chữ trên nền trong suốt */
+.message-content-render,
+.message-frame,
+.chat-date.island
+{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    /* Chỉnh độ trong suốt của bọt chat tại đây */
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* SỬA LỖI 9: Tách biệt nền tin nhắn chữ và ảnh */
+/* Khôi phục viền vàng highlight cho tin nhắn của trưởng/phó nhóm */
+.message-frame.message-frame--highlight-from-admin
+{
+    border: 1px solid #e5a93c !important;
+    /* Màu vàng cam đặc trưng của Zalo */
+    /* Nếu bạn thích viền sáng hơn thì có thể đổi mã màu thành #ffd154 */
+}
+
+/* 9.1 Làm trong suốt hoàn toàn thẻ bọc ngoài cùng của mọi loại tin nhắn */
+.message-content-render
+{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* 9.2 Chỉ áp dụng nền mờ cho bong bóng tin nhắn chữ (message-frame) và thẻ ngày tháng */
+.message-frame,
+.chat-date.island
+{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    /* Nền của tin nhắn text */
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 9.3 Đảm bảo khung của tin nhắn ảnh (message-non-frame) hoàn toàn trong suốt */
+.message-non-frame,
+.img-msg-v2
+{
+    background-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* (Tùy chọn) 10. Làm mờ nền danh sách các cụm media/link bên cột phải */
+.chat-info-link,
+.img-media
+{
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Làm trong suốt nền của loading page, khung onboard và tin nhắn */
+#loading-page,
+#chatOnboard,
+.msg-item,
+.chat-onboard
+{
+    background-color: transparent !important;
+}
+
+/* 6. Cập nhật: Ẩn hoàn toàn lớp ảnh nền mờ và chế độ nền Dark Mode mới của Zalo */
+.message-view__blur,
+.message-view__blur__overlay,
+.message-view__blur__overlay_noavatar,
+/* Class mới trong HTML của bạn */
+.bg__dark-mode
+{
+    display: none !important;
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Bổ sung: Ép trong suốt cho thẻ <main> bao ngoài cùng đoạn chat */
+main,
+.main__center
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Xóa các vạch kẻ ngang (border/box-shadow) trong cột thông tin bên phải */
+.chat-info-general__section--border,
+.chat-info-general__section,
+.chat-info-general__section__header
+{
+    border: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* 1. Xóa background của các thẻ Container & Wrapper chính */
+.contact-tab-v2,
+.contact-pages,
+.page-container,
+.card-list-wrapper,
+.list,
+.head__page__contact__tab
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* 2. Xóa background của Menu bên trái */
+.menu-contact
+{
+    background: transparent !important;
+}
+
+/* 3. Can thiệp vào các row được render bằng React Virtualized (Phần khó nhất do có inline style) */
+.ReactVirtualized__Grid__innerScrollContainer > div
+{
+    background: transparent !important;
+}
+
+/* 4. Làm trong suốt các item bạn bè và background của nó */
+.contact-item-v2-wrapper
+{
+    background: transparent !important;
+}
+
+/* 5. Làm trong suốt thanh Search và các nút Filter (Chips) */
+.zl-group-input,
+.filter-contact .chips
+{
+    background: transparent !important;
+    /* Có thể thêm border mờ nếu sợ nó tiệp luôn vào nền tàng hình */
+    /* border: 1px solid rgba(255, 255, 255, 0.2) !important; */
+}
+
+.media-viewer-layout
+{
+    /* Màu nền đen bán trong suốt (thay đổi 0.6 từ 0 đến 1 để chỉnh độ đậm nhạt) */
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    /* Hiệu ứng làm mờ (thay đổi 10px để tăng/giảm độ mờ của nền phía sau) */
+    backdrop-filter: blur(10px) !important;
+    /* Hỗ trợ cho các trình duyệt lõi WebKit (như Safari) */
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* 1. Xóa màu nền cứng của tất cả các lớp có thể gây nhiễu */
+.media-viewer,
+.media-viewer__header,
+.media-viewer__body,
+.media-viewer__footer,
+.mediaViewerMain,
+.media-viewer-main-view
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Làm trong suốt thanh tiêu đề và thanh cuộn ảnh bên phải */
+.image-show__title.MediaViewer,
+.media-viewer__body__right,
+.sliderView
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* 2. Áp dụng hiệu ứng Glassmorphism (blur) vào khung layout chính */
+.media-viewer-layout
+{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    /* Đen trong suốt 50% */
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+}
+
+/* Xóa nền đen/khung của Sticker */
+.message-non-frame,
+.sticker-group-message-wrapper,
+.sticker-group-message,
+.sticker-message-content-wrapper,
+.normal-sticker-message-content,
+.card--sticker--container
+{
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    /* Xóa luôn đổ bóng nếu có */
+    border: none !important;
+}
+
+/* Xóa nền đen phần hiển thị thời gian dưới ảnh */
+.message-content-send-time-wrapper,
+.message-content-send-time-floating,
+.bubble-message-time-status,
+.card-send-time
+{
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Trong trường hợp khung bọc ngoài cùng của ảnh cũng bị dính nền */
+.photo-msg-container,
+.media-msg-wrapper
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* 1. Xóa nền rác bao ngoài */
+.msg-item
+{
+    background: transparent !important;
+}
+
+/* 2. Nền đen trong suốt cho các đoạn chat bình thường */
+.msg-item .conv-item
+{
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 3. Hiệu ứng khi di chuột qua (nhưng không áp dụng cho cái đang chọn) */
+.msg-item:hover .conv-item:not(.selected)
+{
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 4. MÀU HIGHLIGHT CHO ĐOẠN CHAT ĐANG ĐƯỢC CHỌN */
+.msg-item .conv-item.selected
+{
+    /* Đổi nền thành màu trắng mờ (hoặc bạn có thể đổi thành rgba(0, 132, 255, 0.3) nếu thích viền xanh Zalo) */
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-left: 3px solid #0068ff !important;
+    /* Thêm một vạch xanh nhỏ ở rìa trái để dễ nhận diện hơn */
+}
+
+/* Nền đen trong suốt (hiện tại đang để 50% trong suốt) */
+.group-search.grid-item
+{
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Nếu thanh input bên trong vẫn có màu trắng, bạn cho nó tàng hình luôn để lộ nền đen ở trên */
+#contact-search-input
+{
+    background-color: transparent !important;
+}
+
+/* Cho phần thanh lọc (Filter) và ô nhập liệu tàng hình */
+.contact-filter-wrapper,
+.contact-filter-wrapper .filter,
+.zl-group-input.search-contact
+{
+    background-color: transparent !important;
+}
+
+/* Nền đen trong suốt và sửa lỗi mất góc bo tròn */
+.group-search.grid-item
+{
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 4px !important;
+    /* Ép lại góc bo tròn, bạn có thể chỉnh 16px-24px tùy mắt nhìn */
+    overflow: hidden !important;
+    /* Đảm bảo màu không tràn ra ngoài viền bo */
+}
+
+/* Cho phần đánh dấu chữ cái (A, B, C...) tàng hình */
+.contact-item-v2-alpha__section
+{
+    background-color: transparent !important;
+}
+
+/* Làm tàng hình vạch phân cách hoặc section cuối */
+.contact-item-v2-last--section
+{
+    background-color: transparent !important;
+}
+
+/* Tàng hình nền của các dòng tên người dùng trong danh sách Tìm gần đây */
+.list-friend-conctact
+{
+    background-color: transparent !important;
+}
+
+/* (Tùy chọn) Thêm chút hiệu ứng sáng mờ khi di chuột vào từng người trong Tìm gần đây cho dễ bấm */
+.list-friend-conctact:hover
+{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    /* Bo góc chút cho đẹp */
+}
+
+/* 1. Xóa nền xám của khung bọc ngoài cùng danh sách tìm kiếm */
+#recent-search-list,
+#recent-search-list > div
+{
+    background-color: transparent !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    /* Xóa luôn bóng đổ nếu có */
+}
+
+/* 2. Xóa nền xám của từng dòng bạn bè trong danh sách này */
+#recent-search-list .conv-item,
+#recent-search-list .list-friend-conctact
+{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* 3. Thêm lại hiệu ứng hover (di chuột) cho các dòng này để dễ bấm */
+#recent-search-list .conv-item:hover
+{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+}
+
+/* 4. Xóa nền của các nút "Lọc tin nhắn" (Nhắc bạn, Biểu cảm...) ở dưới cùng */
+#recent-search-list .noti-entry-v2 .chips
+{
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    /* Thêm viền mỏng để nhìn thấy nút */
+    color: white !important;
+    /* Đổi màu chữ cho dễ đọc trên nền trong suốt */
+}
+
+.z--btn--v2.view-more__full
+{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    /* Màu đen với độ trong suốt 50% */
+    color: #ffffff !important;
+    /* Đổi màu chữ thành trắng cho dễ đọc trên nền đen */
+    border: none !important;
+    /* Bỏ viền nếu nút đang có viền mặc định */
+}
+
+/* Thêm hiệu ứng khi hover chuột vào cho mượt */
+.z--btn--v2.view-more__full:hover
+{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    /* Tối hơn một chút khi hover */
+}
+
+/* Xóa nền của toàn bộ khối bao ngoài cùng */
+.cb-info-file-item,
+.media-item
+{
+    background-color: transparent !important;
+    background: none !important;
+}
+
+/* Xóa nền của các nút hành động (Download, Share, More) đang bị gắn inline style */
+.cb-info-file-item__actions-container > div
+{
+    background-color: transparent !important;
+    background: none !important;
+}
+
+/* =========================================================
+   HIỆU ỨNG GLASSMORPHISM (BLUR) CHO TẤT CẢ CÁC POPUP/MODAL
+   ========================================================= */
+/* 1. Phủ lớp kính mờ cho khung Popup ngoài cùng */
+.zl-modal__dialog
+{
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    /* Nền đen bán trong suốt, tăng giảm 0.45 tùy ý */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    /* Viền sáng cực mỏng tạo cảm giác mặt kính */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
+    /* Đổ bóng nhẹ cho popup nổi lên */
+    backdrop-filter: blur(5px) !important;
+}
+
+/* 2. Xóa sạch nền cứng của các khối con bên trong Popup */
+.zl-modal__dialog-body,
+.zl-modal__dialog__header,
+.pi-info-layout,
+.pi-info-layout__primary-info-container,
+.pi-info-card,
+.pi-action-section,
+#setting,
+.setting-menu,
+#setting-right,
+.setting--bottom,
+.create-group__header,
+.create-group__search,
+.create-group__list,
+.create-group__selected-section,
+.ReactVirtualized__Grid__innerScrollContainer
+{
+    background: transparent !important;
+    background-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0.05) !important;
+    /* Làm mờ luôn các đường gạch ngang chia section */
+    backdrop-filter: blur(5px) !important;
+}
+
+/* 3. Tẩy nền của các thẻ chi tiết (item) trong danh sách */
+.create-group__item,
+.pi-group-profile-avatar-item,
+.pi-info-item__content,
+.setting-section,
+.setting-section-content,
+.setting-menu__item,
+.pi-action-item
+{
+    background: transparent !important;
+}
+
+/* 4. Thêm hiệu ứng hover (khi rê chuột) cho các mục trong Popup để dễ thao tác */
+.setting-menu__item:hover,
+.create-group__item:hover,
+.pi-action-item:hover,
+.setting-section-content__item:hover
+{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+}
+
+/* 5. Highlight mục đang được chọn (VD: Menu Cài đặt đang ở tab nào) */
+.setting-menu__item.selected
+{
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-radius: 8px !important;
+}
+
+/* =========================================================
+   TẨY NỀN CÁC ELEMENT CON CÒN SÓT TRONG POPUP/MODAL
+   ========================================================= */
+/* 1. Khu vực Profile & Settings (Vùng chứa thẻ, Thẻ thông tin, Nền stack) */
+.pi-info-layout__extra-info-container,
+.pi-info-card,
+.stack-navigation,
+.stack-page,
+.setting-right
+{
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    /* Xóa bóng đổ mặc định của thẻ */
+}
+
+/* 2. Thanh Footer (Chứa các nút Hủy / Tạo nhóm ở dưới cùng) */
+.zl-modal__footer,
+.footer-sep
+{
+    background: transparent !important;
+    background-color: transparent !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    /* Viền mờ cho phần chân */
+}
+
+/* 3. Khung nhập liệu & Tìm kiếm (Tên nhóm, Thanh Search) */
+.zl-group-input,
+.create-group__input-v3,
+.zl-group-input__affix-wrapper,
+.zl-input
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Thêm viền trắng mờ cho ô nhập liệu để không bị tàng hình hoàn toàn */
+.zl-group-input__appearance--text,
+.zl-group-input__appearance--rounded
+{
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* 4. Các nút phân loại (Chips), Mục đã chọn & Chữ cái phân nhóm (A, B, C...) */
+.chips,
+.cg-tag,
+.create-group__list-title,
+.create-group__selected-item,
+.z-badge,
+.setting-section-label,
+.z-dropdown-preview
+{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Thêm viền mờ cho các nút (Gia đình, Bạn bè, Mục đã chọn) để dễ nhìn */
+.chips
+{
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Khi chọn vào nút (Chips) thì làm sáng nhẹ lên */
+.chips.--active
+{
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Sửa lỗi: Khử nền của bong bóng chứa cả ảnh và chữ (caption) */
+.img-msg-v2.-caption .img-msg-v2__bub,
+.img-msg-v2__bub.--capt
+{
+    /* Đang set mờ 40% cho đồng bộ với tin nhắn text của bác. 
+       Nếu thích tàng hình 100% thì đổi thành transparent !important */
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Đảm bảo phần footer chứa chữ bên dưới ảnh không bị dính màu thừa */
+.img-msg-v2__ft
+{
+    background-color: transparent !important;
+}
+
+.sliderTime.-inactive {
+    background-color: transparent; 
+    background: none; 
+}
+
+.sliderTime {
+    background-color: transparent; /* Hoặc dùng: background: none; */
+}
+
+/* 1. Khung Popover ngoài cùng: Kính mờ tối màu */
+.popover-v3 {
+    background: rgba(25, 25, 25, 0.6) !important; /* Nền đen xám bán trong suốt */
+    backdrop-filter: blur(8px) saturate(180%) !important; /* Tăng saturate giúp màu nền phía sau rực rỡ hơn qua lớp kính */
+    -webkit-backdrop-filter: blur(8px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important; /* Viền trắng rất mờ tạo mép bắt sáng cho kính */
+    border-radius: 16px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5) !important; /* Bóng đổ đen đậm hơn để menu nổi bật */
+}
+
+/* 2. Xóa nền đặc mặc định của các lớp con bên trong */
+.popover-v3 .zmenu-body,
+.popover-v3 .zl-scroll-menu,
+.popover-v3 .expand,
+.popover-v3 .zmenu-body .expand > div:first-child {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Đảm bảo chữ (Tiêu đề và tên thẻ) có màu sáng để dễ đọc trên nền tối */
+.popover-v3 span, 
+.popover-v3 div.truncate {
+    color: #f1f1f1 !important; 
+}
+
+/* 3. Tùy chỉnh các Item (Gia đình, Bạn bè...) và hiệu ứng Hover */
+.popover-v3 .zmenu-item {
+    background: transparent !important;
+    border-radius: 8px !important;
+    margin: 2px 8px !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+/* Khi di chuột vào: Nền sáng lên một chút xíu (overlay trắng mờ) */
+.popover-v3 .zmenu-item:hover {
+    background: rgba(255, 255, 255, 0.1) !important; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* 4. Thanh phân cách (Separator) */
+.popover-v3 .zmenu-separator {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Đường kẻ ngang mờ */
+    margin: 8px 12px !important;
+}
+
+/* 5. Xử lý các icon SVG (Checkbox rỗng) để không bị viền trắng cứng */
+.popover-v3 svg path[fill="var(--layer-background)"] {
+    fill: transparent !important; /* Xóa nền trong của checkbox */
+}
+.popover-v3 svg path[fill="var(--NG40)"] {
+    fill: rgba(255, 255, 255, 0.5) !important; /* Đổi màu viền checkbox cho hợp tone tối */
+}
+
+/* Khung ngoài của thẻ người dùng */
+.card-wrapper {
+    background: rgba(25, 25, 25, 0.6) !important;
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+    transition: background 0.2s ease !important;
+}
+
+/* Hiệu ứng sáng nhẹ khi lướt chuột qua thẻ */
+.card-wrapper:hover {
+    background: rgba(40, 40, 40, 0.6) !important;
+}
+
+/* Tên người dùng và Trạng thái */
+.card-wrapper .card-name .name {
+    color: #f1f1f1 !important; 
+    text-shadow: none !important;
+}
+.card-wrapper .card-name .extra {
+    color: rgba(255, 255, 255, 0.5) !important; /* Làm mờ dòng trạng thái */
+}
+
+/* Nút bấm (Ví dụ: Thu hồi lời mời, Nút chat) */
+.card-wrapper .z--btn--v2 {
+    background: rgba(255, 255, 255, 0.1) !important; /* Nút dạng kính mờ nhẹ */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #e0e0e0 !important;
+}
+.card-wrapper .z--btn--v2:hover {
+    background: rgba(255, 255, 255, 0.2) !important; /* Nút sáng lên khi hover */
+}
+
+/* Khung chứa các cài đặt */
+.setting-section {
+    background: rgba(25, 25, 25, 0.5) !important;
+    backdrop-filter: blur(12px) saturate(150%) !important;
+    -webkit-backdrop-filter: blur(12px) saturate(150%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 12px !important;
+    padding: 12px 16px !important; /* Căn lề cho đẹp */
+}
+
+/* Dòng mô tả (Ví dụ: Danh sách bạn bè được hiển thị...) */
+.setting-section-desc {
+    color: rgba(255, 255, 255, 0.5) !important; /* Làm chữ mờ đi để không lấn át tính năng chính */
+    margin-bottom: 12px !important;
+}
+
+/* Từng mục tùy chọn bên trong */
+.setting-section-content__item {
+    color: #f1f1f1 !important;
+    padding: 10px 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important; /* Đường line siêu mờ */
+    transition: all 0.2s ease !important;
+}
+.setting-section-content__item.last {
+    border-bottom: none !important; /* Bỏ viền ở mục cuối cùng */
+}
+
+/* Hiệu ứng di chuột qua từng mục cài đặt */
+.setting-section-content__item:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 8px !important;
+    padding: 10px 8px !important; /* Kéo giãn background một chút khi hover */
+    margin: 0 -8px !important;
+}
+
+/* Icon Nút Radio (Vòng tròn) */
+/* Trạng thái chưa chọn */
+.setting-section-content__item .z-radio i {
+    color: rgba(255, 255, 255, 0.3) !important; 
+    transition: all 0.2s ease !important;
+}
+
+/* Trạng thái đã chọn (Phát sáng màu xanh) */
+.setting-section-content__item .z-radio--active i {
+    color: rgba(0, 132, 255, 0.9) !important; 
+    text-shadow: 0 0 10px rgba(0, 132, 255, 0.5) !important; /* Hiệu ứng neon sáng nhẹ trên nền tối */
+}
+/* Ép xóa màu nền đặc của khung nội dung cài đặt */
+.setting-section-content,
+.setting-section-content__item {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* ------------------------------------------------ */
+/* TÙY CHỈNH NÚT DROPDOWN (Chọn "Không hiện" ngày sinh) */
+/* ------------------------------------------------ */
+.z-dropdown-preview {
+    background: rgba(255, 255, 255, 0.05) !important; /* Kính siêu mỏng cho dropdown */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    color: #f1f1f1 !important;
+    transition: all 0.2s ease !important;
+}
+.z-dropdown-preview:hover {
+    background: rgba(255, 255, 255, 0.1) !important; /* Sáng lên khi di chuột */
+}
+
+/* ------------------------------------------------ */
+/* TÙY CHỈNH CÔNG TẮC TOGGLE (Bật/Tắt trạng thái)   */
+/* ------------------------------------------------ */
+/* Trạng thái tắt */
+.setting-section-content__item .z-toggle i {
+    color: rgba(255, 255, 255, 0.3) !important; 
+}
+/* Trạng thái bật (Giả định class active hoặc check của Zalo) */
+.setting-section-content__item .z-toggle.z-toggle--active i,
+.setting-section-content__item .z-toggle i.fa-toggle-checked-24 {
+    color: rgba(0, 132, 255, 0.9) !important; 
+    text-shadow: 0 0 8px rgba(0, 132, 255, 0.4) !important;
+}
+
+/* Tạo lại nền kính mờ riêng cho Menu con nổi lên */
+.zmenu-sub .sub-menu,
+.zmenu-sub .zmenu-body.sub-menu {
+    background: rgba(30, 30, 30, 0.8) !important; /* Nền tối đậm hơn một chút để phân biệt với menu chính */
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important; /* Viền sáng */
+    border-radius: 8px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5) !important; /* Bóng đổ đậm để nổi bật hẳn lên */
+    padding: 4px 0 !important; /* Thêm một chút khoảng không trên dưới cho đẹp */
+}
+
+/* Đảm bảo chữ bên trong menu con hiển thị rõ ràng */
+.zmenu-sub .sub-menu .zmenu-item span,
+.zmenu-sub .sub-menu .zmenu-item div {
+    color: #f1f1f1 !important;
+    text-shadow: none !important;
+}
+
+/* Đảm bảo hiệu ứng hover cho item trong menu con vẫn mượt */
+.zmenu-sub .sub-menu .zmenu-item:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 6px !important;
+}
+
+/* 1. Xóa màu nền đặc của thanh phân cách và toàn bộ khu vực thông tin */
+.friend-profile__groups,
+.friend-profile__detail__header,
+.user-profile-details {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Xử lý class tạo ra cái "thanh có nền" */
+.friend-profile__detail__line {
+    background: transparent !important; /* Ép xóa nền đặc */
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important; /* Biến nó thành một đường viền kính siêu mỏng */
+    margin-top: 8px !important;
+    padding-top: 8px !important;
+}
+
+/* 2. Màu chữ cho phần tiêu đề "Thông tin kinh doanh" */
+.friend-profile__detail__header {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 600 !important;
+}
+
+/* 3. Phân bổ màu chữ cho Nội dung (Ngành hàng, Địa chỉ...) để dễ đọc */
+.user-profile-details__line span:first-child {
+    color: rgba(255, 255, 255, 0.5) !important; /* Các nhãn như "Ngành hàng", "Địa chỉ" sẽ mờ nhẹ */
+}
+.user-profile-details__line span:last-child,
+.user-profile-details__line .preview-content span {
+    color: #f1f1f1 !important; /* Nội dung chi tiết sẽ sáng rõ ràng */
+}
+
+/* 4. Tùy chỉnh lại nút "Xem thêm" cho hợp với phong cách Glassmorphism */
+.view-more__full.btn-neutral {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #e0e0e0 !important;
+    transition: all 0.2s ease !important;
+    margin-top: 12px !important;
+}
+
+.view-more__full.btn-neutral:hover {
+    background: rgba(255, 255, 255, 0.1) !important; /* Sáng nhẹ lên khi di chuột vào */
+}
+
+/* 1. Đảm bảo khu vực Header không bị dính nền đặc che mất kính */
+.header-info {
+    background: transparent !important;
+}
+
+/* Tên nhóm chat (Màu trắng sáng, in đậm nhẹ để dễ đọc) */
+.header-info__name .truncate {
+    color: #f1f1f1 !important;
+    font-weight: 600 !important;
+}
+
+/* 2. Tùy chỉnh các nút tròn (Cả dãy nút công cụ và nút "Chỉnh sửa" tên nhóm) */
+.header-info__tool__button .z--btn--v2.btn-neutral,
+.header-info__name .header-info__icon {
+    background: rgba(255, 255, 255, 0.05) !important; /* Nền kính siêu mỏng */
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important; /* Viền bắt sáng */
+    color: #e0e0e0 !important; /* Icon màu xám sáng */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important; /* Đổ bóng nhẹ tách khỏi nền */
+    transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1) !important; /* Chuyển động mượt */
+}
+
+/* Hiệu ứng khi di chuột vào nút tròn (Sáng lên và nổi nhẹ lên trên) */
+.header-info__tool__button .z--btn--v2.btn-neutral:hover,
+.header-info__name .header-info__icon:hover {
+    background: rgba(255, 255, 255, 0.15) !important; 
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3) !important;
+    transform: translateY(-2px) !important; /* Nảy nhẹ lên */
+    color: #ffffff !important; /* Icon sáng hẳn */
+}
+
+/* 3. Trạng thái nút Đang bật (Ví dụ: Đang ghim, Đang tắt thông báo - class 'focused') */
+.header-info__tool__button .z--btn--v2.btn-neutral.focused {
+    background: rgba(0, 132, 255, 0.15) !important; /* Lớp kính màu xanh Zalo mờ */
+    border: 1px solid rgba(0, 132, 255, 0.4) !important; /* Viền xanh */
+    color: #0084ff !important; /* Icon xanh */
+    box-shadow: 0 4px 16px rgba(0, 132, 255, 0.2) !important; /* Ánh hào quang xanh */
+}
+
+/* 4. Tùy chỉnh dòng chữ nhãn bên dưới mỗi nút */
+.header-info__tool__button div-12,
+.header-info__tool__button span {
+    color: rgba(255, 255, 255, 0.5) !important; /* Chữ mặc định hơi mờ để không rối mắt */
+    transition: color 0.2s ease !important;
+    font-weight: 500 !important;
+}
+
+/* Khi hover vào cụm nút, dòng chữ nhãn tương ứng sẽ sáng rõ lên */
+.header-info__tool__button:hover div-12,
+.header-info__tool__button:hover span {
+    color: #ffffff !important;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3) !important;
+}
+
+/* 1. Xóa nền đặc của toàn bộ thanh Sidebar và lớp phủ (cp-bg) */
+.chat-info, 
+.cp-bg, 
+.group-board-page {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Áp dụng kính mờ cho toàn bộ khung Sidebar bên phải */
+
+/* 2. Tiêu đề và Thanh Tabs (Tất cả, Tin ghim, Bình chọn...) */
+.chat-info__header.web {
+    background: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.group-board-sidebar-title span {
+    color: #f1f1f1 !important;
+}
+
+/* Xóa nền thanh tabs */
+.gb-tabs {
+    background: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+/* Tab mặc định */
+.gb-tabs .gb-tab span {
+    color: rgba(255, 255, 255, 0.5) !important;
+    transition: color 0.2s !important;
+}
+/* Tab đang được chọn (Sáng màu xanh) */
+.gb-tabs .gb-tab.selected span {
+    color: #0084ff !important;
+    text-shadow: 0 0 8px rgba(0, 132, 255, 0.3) !important;
+}
+.gb-tabs .gb-tab.selected {
+    border-bottom-color: #0084ff !important;
+}
+
+/* 3. Từng thẻ nội dung (Tin ghim, Bình chọn) */
+.group-board-item .gbi-outer,
+.group-poll-message-v3.board-poll {
+    background: rgba(255, 255, 255, 0.03) !important; /* Nền kính siêu nhạt cho từng item */
+    border: 1px solid rgba(255, 255, 255, 0.05) !important; /* Viền mỏng tách biệt */
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    transition: background 0.2s ease !important;
+}
+
+/* Sáng nhẹ lên khi hover vào tin ghim */
+.group-board-item .gbi-outer:hover,
+.group-poll-message-v3.board-poll:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* 4. Chỉnh màu chữ bên trong các thẻ (Tiêu đề, nội dung tin, thời gian) */
+.gbi-title, 
+.pmsg-msg, 
+.question__poll, 
+.vote__content {
+    color: #f1f1f1 !important; /* Chữ chính màu sáng */
+}
+
+.gbi-description, 
+.gbi-time, 
+.setting__option, 
+.sum-voters {
+    color: rgba(255, 255, 255, 0.4) !important; /* Chữ phụ mờ đi */
+}
+
+/* Nút "Xem tin nhắn gốc" */
+.gbi-button {
+    color: #0084ff !important;
+}
+
+/* 5. Tùy chỉnh thanh tiến trình của thẻ Bình chọn (Poll) */
+.vote__progess {
+    background: rgba(255, 255, 255, 0.05) !important; /* Nền xám mờ cho thanh chưa chọn */
+    border-radius: 4px !important;
+}
+.vote__progess.progress__done {
+    background: rgba(0, 132, 255, 0.25) !important; /* Nền xanh mờ cho lựa chọn đang dẫn đầu */
+}
+
+/* 1. Xóa nền khu vực hiển thị trống */
+.gb-empty {
+    background: transparent !important;
+}
+
+/* 2. Tùy chỉnh Dòng chữ thông báo (Ví dụ: "Chưa có nhắc hẹn nào...") */
+.gb-empty .media-empty-text,
+.gb-empty div[style*="text-align: center"] > div > span {
+    color: rgba(255, 255, 255, 0.6) !important; /* Chữ xám trắng, làm mờ nhẹ để không quá gắt */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important; /* Bóng đổ chữ để nổi trên nền kính */
+}
+
+/* 3. Tinh chỉnh Hình ảnh minh họa (Giúp ảnh tiệp với Dark Mode hơn) */
+.gb-empty .topic-empty-img {
+    opacity: 0.85 !important; /* Giảm độ chói của ảnh */
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3)) !important; /* Thêm bóng đổ mềm để tách ảnh khỏi nền chat */
+}
+
+/* 4. Tùy chỉnh Nút hành động (Tạo ghi chú / Tạo nhắc hẹn) */
+.gb-empty .z--btn--v2.btn-secondary {
+    background: rgba(255, 255, 255, 0.08) !important; /* Nền kính mỏng */
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important; /* Viền bắt sáng */
+    color: #e0e0e0 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.25s ease !important;
+}
+
+/* Hiệu ứng khi di chuột vào nút */
+.gb-empty .z--btn--v2.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    color: #ffffff !important;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3) !important;
+    transform: translateY(-2px) !important; /* Nảy nhẹ lên */
+}
+
+/* Kế thừa màu cho icon bên trong nút */
+.gb-empty .z--btn--v2.btn-secondary i {
+    color: inherit !important;
+}
